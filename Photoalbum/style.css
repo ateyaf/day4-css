@@ -1,8 +1,25 @@
 
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+    body {
+        background-color: firebrick;
+    }
+}
+@media screen and (min-width:1201px) {
+    body {
+        background-color:rosybrown;
+    }
+}
+
 
 h1{
     text-align: center;
-    font-family: fantasy;
+    font-family: cursive;
 }
 
 
@@ -16,7 +33,7 @@ h1{
 h2{
     text-align: center;
     background-color: bisque;
-    font-family: fantasy;
+    font-family: cursive;
 }
 
 img{
