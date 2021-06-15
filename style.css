@@ -2,12 +2,19 @@
     width: 10px;;
     margin: 20px 10px;
     background: #fff;
+    padding:0px;
     }
 
+  /*  {background: #fff; padding:20px;
+        width: 600px;margin: 20px auto;
+        -moz-box-shadow:0 0 20px #bbb;
+        -webkit-box-shadow:0 0 2px 2px #bbb;
+        box-shadow: 0 0 2px 2px #bbb;*/
 img{
     width:100px;
     height: 90px;
     box-shadow: 0 0 2px 2px #bbb;
+    margin-bottom: 2px;
     
 }
 th{
@@ -39,7 +46,13 @@ table{
 td{
 padding: 25px;
 }
+tr{
+    display: inline-block;
+    padding-top: 1px;
+    margin-bottom: 1px;
+}
 h2{
+    margin-bottom: 10px;
     font-size:6pt;
     text-align: center;
     background-color:rgb(207, 179, 207);
