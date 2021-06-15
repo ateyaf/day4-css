@@ -1,18 +1,18 @@
 
 @media screen and (max-width: 480px) {
     body {
-        background-color: lightgreen;
+        background-color: blue;
     }
 }
 
 @media screen and (min-width: 481px) and (max-width: 1200px) {
     body {
-        background-color: firebrick;
+        background-color: green;
     }
 }
 @media screen and (min-width:1201px) {
     body {
-        background-color:rosybrown;
+        background-color:firebrick;
     }
 }
 
@@ -32,7 +32,7 @@ h1{
 
 h2{
     text-align: center;
-    background-color: bisque;
+    background-color: yellow;
     font-family: cursive;
 }
 
